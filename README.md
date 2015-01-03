@@ -1,4 +1,4 @@
-# plugger
+# fireplug
 
 Simple engine for creating plugin-driven applications
 
@@ -7,7 +7,7 @@ Simple engine for creating plugin-driven applications
 First, instantiate a plugin manager:
 
 ```javascript
-var PluginManager = require('plugger');
+var PluginManager = require('fireplug');
 var plugins = new PluginManager();
 ```
 
@@ -78,7 +78,7 @@ plugins
 ```
 
 In either case, the plugins are invoked asynchronously so that the plugin author always have an asynchronous
-option. `plugger` uses Promises/A+.
+option. `fireplug` uses Promises/A+.
 
 The suggested strategy for structuring a plugin-based application is to integrate a built-in set of plugins,
 then enable a consumer of your application to inject additional plugins.

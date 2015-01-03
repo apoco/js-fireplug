@@ -1,7 +1,7 @@
 {
-  "name": "plugger",
+  "name": "fireplug",
   "version": "1.0.0",
-  "repository": "https://github.com/apoco/plugger",
+  "repository": "https://github.com/apoco/js-fireplug",
   "dependencies": {
     "bluebird": "~2.5.3"
   },
